@@ -2,19 +2,19 @@ Declare,metatab-latest
 Title,Survey of Consumer Finances
 Description,References to the Survey of Consumer Finances
 Identifier,56496ed6-3007-4621-9d6a-b02a72b17acf
-Name,federalreserve.gov-consumer_finances-1.1.1
+Name,federalreserve.gov-consumer_finances-1.2.1
 Dataset,consumer_finances
 Origin,federalreserve.gov
 Time,
 Space,
 Grain,
 Variant,
-Version,1.1.1
+Version,1.2.1
 Version.Major,1
-Version.Minor,1
+Version.Minor,2
 Version.Patch,1
 Created,2020-07-19T21:57:57
-Modified,2020-08-17T18:56:28
+Modified,2020-11-05T17:32:14
 Giturl,https://github.com/CivicKnowledge/insights.civicknowledge.com.git
 
 Section,Contacts,Email,Organization,Url
@@ -22,13 +22,27 @@ Wrangler,Eric Busboom,eric@civicknowledge.com,Civic Knowledge,http://civicknowle
 
 Section,Documentation,Title,Description,
 Documentation,file:README.md,README,,
-Homepage,https://www.federalreserve.gov/econres/scfindex.htm,Homepage,,
-Documentation,https://www.federalreserve.gov/econres/files/codebk2016.txt,Codebook,,
-
-Section ,Resources
+Homepage,https://www.federalreserve.gov/econres/scfindex.htm,2016 Homepage,,
+Documentation,https://www.federalreserve.gov/econres/files/codebk2016.txt,2016 Codebook,,
+Documentation,https://www.federalreserve.gov/econres/files/bulletin.macro.txt,2016 Extract SAS Macro,,
+Homepage,https://www.federalreserve.gov/econres/scf_2013.htm,2013 Home Page,,
+Documentation,https://www.federalreserve.gov/econres/files/codebk2013.txt,2013 Codebook,,
+Documentation,https://www.federalreserve.gov/econres/files/bulletin.macro.txt,2013 Extract SAS Macro,,
+Documentation,https://www.federalreserve.gov/econres/scf_2010.htm,2010 Home Page,,
+Documentation,https://www.federalreserve.gov/econres/files/codebk2010.txt,2010 Codebook,,
+Documentation,https://www.federalreserve.gov/econres/files/bulletin.macro.txt,2010 Extract SAS Macro,,
+Note,scf_extract_10 is broken; Pandas can't load the version of Stat for this file
 Section,References,Name,Description,
 Reference,https://www.federalreserve.gov/econres/files/scf2016s.zip#p16i6.dta,scf_public_16,"Survey of consumer finances, full public dataset, 2016",
 Reference,https://www.federalreserve.gov/econres/files/scfp2016s.zip#rscfp2016.dta,scf_extract_16,"Survey of consumer finances, public extract, 2016",
 Reference,https://www.federalreserve.gov/econres/files/scf2016rw1s.zip#p16_rw1.dta,scf_weights_16,"Survey of consumer finances, replicate weights, 2016",
-,,,,
+Reference,https://www.federalreserve.gov/econres/files/scf2013s.zip#p13i6.dta,scf_public_13,"Survey of consumer finances, full public dataset, 2013",
+Reference,https://www.federalreserve.gov/econres/files/scfp2013s.zip#rscfp2013.dta,scf_extract_13,"Survey of consumer finances, public extract, 2013",
+Reference,https://www.federalreserve.gov/econres/files/scf2013rw1s.zip#p13_rw1.dta,scf_weights_13,"Survey of consumer finances, replicate weights, 2013",
+Reference,https://www.federalreserve.gov/econres/files/scf2010s.zip#p10i6.dta,scf_public_10,"Survey of consumer finances, full public dataset, 2010",
+Reference,https://www.federalreserve.gov/econres/files/scfp2010.zip#scfp2010&target_format=dta,scf_extract_10,"Survey of consumer finances, public extract, 2010",
+Reference,https://www.federalreserve.gov/econres/files/scf2010rw1s.zip#p10_rw1.dta,scf_weights_10,"Survey of consumer finances, replicate weights, 2010",
+
+Section,Resources,,,
+
 Section,Schema,,,
